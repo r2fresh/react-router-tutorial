@@ -5,3 +5,5 @@ class Repos extends Component {
         return <div>Repos</div>
     }
 }
+
+export default Repos;
