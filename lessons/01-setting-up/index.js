@@ -15,7 +15,7 @@ render((
         <Route path="/" component={App}>
 
             {/* add it here, as a child of '/' */}
-            {/*<IndexRoute component={Home}/>*/}
+            <IndexRoute component={Home}/>
 
             <Route path="/repos" component={Repos}>
                 {/* add this new route*/}
