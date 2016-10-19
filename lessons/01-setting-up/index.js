@@ -9,7 +9,7 @@ import Repo from './modules/Repo'
 import Home from './modules/Home'
 
 render((
-    <Router history={browserHistory}>
+    <Router history={hashHistory}>
         <Route path="/" component={App}>
             <IndexRoute component={Home}/>
             <Route path="/repos" component={Repos}>
